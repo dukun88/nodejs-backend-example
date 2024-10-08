@@ -1,11 +1,13 @@
-<H1>To Use this Source code</H1>
-npm install /n
-nvm install 20 /n
-nvm alias default 20 /n
-npm init /n
-npm run start /n
+## To Use this Source code
 
-<h1>To test Collection n Environment</h1>
-npm instal newman /n 
-newman -v /n 
+npm install<br/>
+nvm install 20<br/>
+nvm alias default 20<br/>
+npm init<br/> 
+npm run start<br/>
+
+## To test Collection n Environment
+
+npm instal newman<br/>
+newman -v<br/>
 newman run Notes\ API\ Test.postman_collection.json --environment Notes\ API\ Test.postman_environment.json
